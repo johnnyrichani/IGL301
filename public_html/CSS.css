@@ -1,0 +1,93 @@
+BODY{
+    background-color: GREY;
+    height: 1000PX;
+    font-family: TREDUCHET MS;
+}
+#WRAPPER{
+    width: 1000PX;
+    margin: auto;
+    height: 1500PX;
+}
+#MENU UL{
+    background: #7D8690;
+    border-bottom:SOLID SILVER THIN;
+    text-align: CENTER;
+    padding: 20PX 50PX 20PX 50PX;
+    margin:auto -50PX;
+}
+
+#MENU UL LI{
+    display: INLINE;
+    PADDING: 10PX 50PX 10PX 50PX;
+    color: WHITE;
+    text-decoration: NONE;
+}
+
+#MENU UL LI A:hover{
+   color: orange;
+}
+
+#FOOTER{
+    background: #7D8690;
+    border-TOP:SOLID SILVER THIN;
+    padding: 20PX 250PX 20PX 250PX;
+    margin:auto;
+    height: 80PX;
+    line-height:250%;
+    
+}
+
+#FOOTER #P1{
+    display: INLINE;
+    float: LEFT;
+    color: WHITE;
+}
+
+#FOOTER #P2{
+    display: INLINE;
+    float: RIGHT;
+    color: WHITE;
+}
+
+#HOUSE2{
+    float: right;
+    margin-TOP: -13PX;
+    width: 1100PX;
+    
+}
+
+#LOGO{
+    float: LEFT;
+    top: -288PX;
+    Left: 200PX;
+    display: inline;
+    position: relative;
+}
+
+#header P{
+    FLOAT:LEFT;
+}
+
+#P3{
+    float: LEFT;
+    margin-left: -400PX;
+    margin-top: -150PX;
+    color: SILVER;
+    font-size: 40PX;
+}
+
+#P4{
+    float: LEFT;
+    margin-left: -350PX;
+    margin-top: -100PX;
+    color: RED;
+    font-size: 50PX;
+}
+
+#P5{
+    float: LEFT;
+    margin-left: -270PX;
+    margin-top: -50PX;
+    color: grey;
+    font-size:45PX;
+}
