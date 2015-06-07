@@ -1,15 +1,44 @@
 BODY{
-    background-color: GREY;
     height: 1000PX;
     font-family: TREDUCHET MS;
+    background: linear-gradient(RGB(166,174,181) , RGB(120,130,140) 100%);
 }
-#WRAPPER{
-    width: 1000PX;
+#WRAPPER_CONTACT_US{
+    width: 800PX;
+    height: 600px;
     margin: auto;
-    height: 1500PX;
+    background-color: RGB(145,153,161);
+}
+
+#WRAPPER_HOME{
+    width: 800PX;
+    height: 900px;
+    margin: auto;
+    background-color: RGB(145,153,161);
+}
+
+#WRAPPER_VILLA{
+    width: 800PX;
+    height: 900px;
+    margin: auto;
+    background-color: RGB(145,153,161);
+}
+
+#WRAPPER_OFFICE{
+    width: 800PX;
+    height: 650px;
+    margin: auto;
+    background-color: RGB(145,153,161);
+}
+
+#WRAPPER_VILLAGE_HOUSE{
+    width: 800PX;
+    height: 600px;
+    margin: auto;
+    background-color: RGB(145,153,161);
 }
 #MENU UL{
-    background: #7D8690;
+    background: RGB(126,135,145);
     border-bottom:SOLID SILVER THIN;
     text-align: CENTER;
     padding: 20PX 50PX 20PX 50PX;
@@ -28,9 +57,9 @@ BODY{
 }
 
 #FOOTER{
-    background: #7D8690;
+    background: RGB(107,116,127);
     border-TOP:SOLID SILVER THIN;
-    padding: 20PX 250PX 20PX 250PX;
+    padding: 0PX 250PX 0PX 250PX;
     margin:auto;
     height: 80PX;
     line-height:250%;
@@ -51,16 +80,20 @@ BODY{
 
 #HOUSE2{
     float: right;
-    margin-TOP: -13PX;
-    width: 1100PX;
+    height: 250PX;
+    width: 800PX;
     
 }
 
+#HOUSE{
+    margin-right: 300PX;
+    height: 200PX;
+    width: 200PX;
+}
+
 #LOGO{
-    float: LEFT;
-    top: -288PX;
-    Left: 200PX;
-    display: inline;
+    float: left;
+    top: -245PX;
     position: relative;
 }
 
@@ -68,26 +101,91 @@ BODY{
     FLOAT:LEFT;
 }
 
+#header{
+    margin: 800PX 700PX;
+}
 #P3{
     float: LEFT;
-    margin-left: -400PX;
-    margin-top: -150PX;
+    margin-left: -300PX;
+    margin-top: -140PX;
     color: SILVER;
-    font-size: 40PX;
+    font-size: 30PX;
 }
 
 #P4{
     float: LEFT;
-    margin-left: -350PX;
-    margin-top: -100PX;
+    margin-left: -270PX;
+    margin-top: -110PX;
     color: RED;
-    font-size: 50PX;
+    font-size: 40PX;
 }
 
 #P5{
     float: LEFT;
-    margin-left: -270PX;
-    margin-top: -50PX;
+    margin-left: -200PX;
+    margin-top: -70PX;
     color: grey;
-    font-size:45PX;
+    font-size:35PX;
+}
+
+#parg{
+    margin-top: -225px;
+    //margin-right: 100PX;
+    float: RIGHT;
+    COLOR: WHITE;
+}
+
+#mid ul li{
+    color: white;
+    text-decoration-color: white;
+    display:list-item;
+}
+
+#key{
+    margin-left: 220px;
+    margin-top: -220px;
+}
+
+#contact{
+    width: 250px;
+    height: 150px;
+    margin-right: 300px;
+}
+
+#contact_p{
+    margin-top: -160px;
+    margin-right: 50PX;
+    float: right;
+    color: WHITE;
+}
+
+#villa_img{
+    height: 200px;
+    width: 400px;
+    margin-right: 300px;
+}
+
+#villa_p{
+    color: white;
+    margin-right: 300px;
+    float: left;
+}
+
+#villa_parag{
+    color: white;
+    float: right;
+}
+
+#office_img{
+    width: 500px;
+    height: 250px;
+}
+
+#office_parag{
+    float: right;
+    margin-top: -340px;
+    margin-right: 50px;
+    color: white;
+    width: 235px;
+    
 }
